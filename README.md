@@ -15,7 +15,12 @@ Main skills to use:
   To convert digital signal into structured data, we present the feature of each spot with Mel-Frequency Cepstral Coefficient(MFCC). The lenth of each frame is 25ms, the number of samples between each window is 10ms and the dimension of features is 32.
   
 ## Model
-  We use three differnet models to predict and compare the result of each model. DNN, CNN and LSTM are models we use in the project. A 5-fold corss validation is performed for tuning model. The structure of CNN and LSTM is shown below:
-<center class='half'>
-<img src="https://github.com/mickeysun0104/Auto-detection-of-campus-spot-with-sound-recognition/blob/main/pics/CNN.png" height="80%"><img src="https://github.com/mickeysun0104/Auto-detection-of-campus-spot-with-sound-recognition/blob/main/pics/LSTM.png" height="80%">
-</half>
+  We use three differnet models to predict and compare the result of each model. Sine the digital signal is continuous, randomly spliting data is not apropriate. At the same time, our model need to be able to cosider the information from several frames. As a result, DNN, CNN and LSTM are models used in the project. A 5-fold corss validation is performed for tuning model. The structure of CNN and LSTM is shown below:
+<div align='center'>
+<img src="https://github.com/mickeysun0104/Auto-detection-of-campus-spot-with-sound-recognition/blob/main/pics/CNN.png" ><img src="https://github.com/mickeysun0104/Auto-detection-of-campus-spot-with-sound-recognition/blob/main/pics/LSTM.png" >
+</div>
+
+## Result
+- LSTM has achieved the best performance with accuracy 0.98
+- MFCC is effective of converting digital signal to structured data
+
