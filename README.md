@@ -7,7 +7,7 @@ Main skills to use:
 
 ## Data source
   The project uses pre-recorded sound from three different spots in the campus, including gym, river side and bus stop. The sample rate and resolution is 44.1kHz and 24 Bit. At each spot, we recorded six-minutes sound with at different times of the day with condenser microphone.
-<div>
+<div align='center'>
 <img src="https://github.com/mickeysun0104/Auto-detection-of-campus-spot-with-sound-recognition/blob/main/pics/246699610_l.jpg" width='40%' height='40%'/><img src='https://github.com/mickeysun0104/Auto-detection-of-campus-spot-with-sound-recognition/blob/main/pics/bus.jpg'>
 </div>
 
